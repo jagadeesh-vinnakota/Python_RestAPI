@@ -1,1 +1,1 @@
-from .student_routes import hello
+from .student_routes import student_list
