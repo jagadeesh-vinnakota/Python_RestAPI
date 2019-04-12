@@ -1,5 +1,6 @@
-from project import app
+from project import app, services
+from flask import jsonify
 
-@app.route("/data")
-def hello():
-    return "hello world!"
+@app.route("/v1/students", methods=['GET'])
+def student_list():
+    return jsonify(services.all_students())
