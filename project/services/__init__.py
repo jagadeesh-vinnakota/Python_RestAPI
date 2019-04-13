@@ -1,1 +1,1 @@
-from .student_services import all_students
+from .student_services import all_students, single_student, students_by_gender
