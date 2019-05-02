@@ -1,0 +1,1 @@
+from .student_routes import student_list, single_student, student_by_gender, create_student
